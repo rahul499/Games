@@ -4,7 +4,16 @@ import Board from './Board';
 
 export default class Game extends Component {
 	
-  
+ constructor(props) {
+    super(props);
+    this.state = {
+       xisNext: true,
+       stepNumber: 0,
+       history:[
+              {squares: Array(9).fill(null) }
+       ]
+    }
+  }
 
 jumpTo(step) {
 this.setState({
