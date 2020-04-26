@@ -15,7 +15,7 @@ function App() {
     <div style={styles.paperContainer} className="lkj">
     <div>
     <h1 className="text"><center> TIC TAC TOE </center></h1>
-    
+    </div>
     <div style={styles.paper} className="lkj">
     <Game />
     </div>
