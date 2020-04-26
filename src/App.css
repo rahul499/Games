@@ -1,0 +1,69 @@
+
+.lkj {
+  background-color: blue;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #05365b;
+}
+
+
+
+.square {
+background: pink;
+border: 1px solid gray;
+float:left;
+margin-right: 15px;
+margin-top: 15px;
+padding: 0px;
+width: 95px;
+height:95px;
+text-align:center;
+font-size:40px;
+font-weight:bold;
+line-height: 80px;
+display:inline-block;
+border: 2px solid black;
+box-shadow: 7px 9px #888888;
+}
+
+.square: focus {
+  outline: none;
+}
+
+.border-row:after {
+clear: both;
+content: "";
+display: table;
+}
+
+.game {
+
+  position: absolute;
+  top:60%;
+  left:55%;
+  transform: translate(-50%, -50%);
+  display:flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+ol, ul {
+padding-left: 30px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.main{
+  background-color: yellow;
+}
+
+.text {
+  color:blue;
+  font-size: 70px;
+}
