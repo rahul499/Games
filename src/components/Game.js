@@ -23,6 +23,15 @@ this.setState({
 }
 
   handleClick(i) {
+	  
+const history = this.state.history.slice(0, this.state.stepNumber+1);
+const current =history[history.length-1];
+const squares = current.squares.slice();
+const winner = calculateWinner(squares);
+
+if(winner || squares[i]){
+  return;
+}
 
 squares[i] = this.state.xisNext?'X':'O';
 this.setState({
